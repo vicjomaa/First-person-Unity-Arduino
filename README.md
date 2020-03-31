@@ -1,6 +1,6 @@
 # First-person-Unity and Arduino
 
-Inspired in Alan Zucconi Tutorial 
+Inspired by the Alan Zucconi Tutorial 
 https://www.alanzucconi.com/2015/10/07/how-to-integrate-arduino-with-unity/
 
 
