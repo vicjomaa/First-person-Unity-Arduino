@@ -31,14 +31,14 @@ Change the **.Net 2.0 Subset** with a version that include the  serialPort class
 
 **05** _Connect the arduino and write the COM port avalaible_ <br>
 As a recommendation ports between 1 and 10 works well; however, values greater than 10 cannot be readed properly by unity.
-<image src="https://github.com/vicjomaa/First-person-Unity-Arduino/blob/master/Images/victor.gif"><image/><br>
+<image src="https://github.com/vicjomaa/First-person-Unity-Arduino/blob/master/Images/victor.gif"><image/>
+  
 Enjoy it!
 
 
 ## Build in 🛠️
 * Unity 2017  -VideoGame editor
 * Arduino - Joystick Script
-
 
 
 ## Created by ✒️
