@@ -55,17 +55,15 @@ public class ArduinoSerial : MonoBehaviour
 
 
 
-
-
-
-    // Lee la info del puerto serial y la convierte en un string
-
+    // Envia  a info del puerto serial de tipo string
     public void escribirQueue(string mensaje)
     {
         salidaDatos.Enqueue(mensaje);
 
     }
 
+
+    // Lee la info del puerto serial y la convierte en un string
     public string leerQueue()
     {
         if (entraDatos.Count == 0)
@@ -79,10 +77,6 @@ public class ArduinoSerial : MonoBehaviour
         }
 
     }
-
-
-
-
 
 
     public void WriteToArduino(string message)
