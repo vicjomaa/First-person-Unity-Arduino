@@ -3,6 +3,7 @@ This project send analog data collected by a joystick via serial port to unity. 
 
 ## How it works ⚙️
 _Load the next script to arduino_
+```
 void setup() {
   // put your setup code here, to run once:
    Serial.begin(9600);
@@ -16,7 +17,7 @@ void loop() {
   delay(10);
 
 }
-
+```
 
 
 ## Build in 🛠️
