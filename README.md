@@ -21,7 +21,7 @@ void loop() {
 **02** _Connect the Joystick on the Arduino UNO analog ports: horizontal axis (A0) and vertical axis (A1) _ <br>
 <image src="https://raw.githubusercontent.com/vicjomaa/First-person-Unity-Arduino/master/Images/Circuit.JPG" height="256" width="455"><image/>
   
-**03** Setup .Net unity framework <br>
+**03** _Setup .Net unity framework_ <br>
 Change the **.Net 2.0 Subset** with a version that include the  serialPort class **.Net 2.0**. 
 <image src="https://raw.githubusercontent.com/vicjomaa/First-person-Unity-Arduino/master/Images/net.JPG" height="256" width="455"><image/>
 
@@ -29,7 +29,7 @@ Change the **.Net 2.0 Subset** with a version that include the  serialPort class
 * **Load ArduinoSerial.cs** sends and receives data from the Arduino serial port COM#
 * **datosInterfas.cs** collects the joystick info sended by the Arduino´s serial port and changes the analog values in a two dimensional movement (Attach it to the gameObject called **personaje**)
 
-**05** _Connect the arduino and write the COM port avalaible
+**05** _Connect the arduino and write the COM port avalaible_ <br>
 As a recommendation ports between 1 and 10 works well; however, values greater than 10 cannot be readed properly by unity.
 <image src="https://github.com/vicjomaa/First-person-Unity-Arduino/blob/master/Images/victor.gif"><image/><br>
 Enjoy it!
