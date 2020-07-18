@@ -20,43 +20,14 @@ void loop() {
 ```
 **02** _Connect the Joystick on the Arduino UNO analog ports: horizontal axis (A0) and vertical axis (A1) _ <br>
 <image src="https://raw.githubusercontent.com/vicjomaa/First-person-Unity-Arduino/master/Images/Circuit.JPG" height="256" width="455"><image/>
+  
+**03** Setup .Net unity framework
+Change the **.Net 2.0 Subset** with a version that include the  serialPort class **.Net 2.0**. 
+<image src="https://raw.githubusercontent.com/vicjomaa/First-person-Unity-Arduino/master/Images/net.JPG" height="256" width="455"><image/>
 
-**04** _Load ArduinoSerial.cs script in your scene _
-```
-This file  setup your comminication port  "COM2" and communication speed
-   /* configura el puerto serial */
-    public static string port = "COM2";
-    
-    /* configura la velocidad de transmision de informacion. */
-    public int baudrate = 9600;
-    .
-    .
-    .
-    
-    // Envia  a info del puerto serial de tipo string
-    public void escribirQueue(string mensaje)
-    {
-        salidaDatos.Enqueue(mensaje);
-
-    }
-
-
-    // Lee la info del puerto serial y la convierte en un string
-    public string leerQueue()
-    {
-        if (entraDatos.Count == 0)
-        {
-            return null;
-
-        }
-        else
-        {
-            return (string)entraDatos.Dequeue();
-        }
-
-    }
-    
-```
+**04** _Load ArduinoSerial.cs script and datosInterfaz.cs in your scene_
+* **Load ArduinoSerial.cs** sends and receives dato from the COM port
+* **datosInterfas.cs** collects the joystick info sended by the Arduino´s serial port and changes the analog values in a two dimensional movement (Attach ina gameObject called personaje)
 
 
 ## Build in 🛠️
