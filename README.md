@@ -26,8 +26,8 @@ Change the **.Net 2.0 Subset** with a version that include the  serialPort class
 <image src="https://raw.githubusercontent.com/vicjomaa/First-person-Unity-Arduino/master/Images/net.JPG" height="256" width="455"><image/>
 
 **04** _Load ArduinoSerial.cs script and datosInterfaz.cs in your scene_ <br>
-* **Load ArduinoSerial.cs** sends and receives dato from the COM port
-* **datosInterfas.cs** collects the joystick info sended by the Arduino´s serial port and changes the analog values in a two dimensional movement (Attach ina gameObject called personaje)
+* **Load ArduinoSerial.cs** sends and receives data from the Arduino serial port COM#
+* **datosInterfas.cs** collects the joystick info sended by the Arduino´s serial port and changes the analog values in a two dimensional movement (Attach it to the gameObject called personaje)
 
 
 ## Build in 🛠️
