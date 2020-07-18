@@ -19,7 +19,7 @@ void loop() {
 }
 ```
 **02** _Connect the Joystick on the Arduino UNO analog ports: horizontal axis (A0) and vertical axis (A1) _ <br>
-https://raw.githubusercontent.com/vicjomaa/First-person-Unity-Arduino/master/Images/Circuit.JPG
+<image src="https://raw.githubusercontent.com/vicjomaa/First-person-Unity-Arduino/master/Images/Circuit.JPG" height="256" width="455"><image/>
 
 **04** _Load ArduinoSerial.cs script in your scene _
 ```
@@ -66,6 +66,6 @@ This file  setup your comminication port  "COM2" and communication speed
 
 
 ## Created by ✒️
-* Coding : Milton Mahecha and Victor Mahecha.
+* Coding : Victor Mahecha.
 *Inspired by the Alan Zucconi Tutorial https://www.alanzucconi.com/2015/10/07/how-to-integrate-arduino-with-unity/
 
