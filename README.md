@@ -29,7 +29,7 @@ Change the **.Net 2.0 Subset** with a version that include the  serialPort class
 * **Load ArduinoSerial.cs** sends and receives data from the Arduino serial port COM#
 * **datosInterfas.cs** collects the joystick info sended by the Arduino´s serial port and changes the analog values in a two dimensional movement (Attach it to the gameObject called **personaje**)
 
-**05** _Connect your arduino_ <br>
+**05** _Connect the arduino and write the COM port avalaible
 As a recommendation ports between 1 and 10 works well; however, values greater than 10 cannot be readed properly by unity.
 <image src="https://github.com/vicjomaa/First-person-Unity-Arduino/blob/master/Images/victor.gif"><image/><br>
 Enjoy it!
